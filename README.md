@@ -38,23 +38,23 @@ startmasternode alias 0 MN1
 ```
 14. Login to your VPS and check your masternode status by running the following command to confirm your MN is running:
 ```
-DudgX-cli masternode status
+Dudgx-cli masternode status
 ```
 ***
 
 ## Usage:
 ```
-DudgX-cli masternode status #To check your MN status
-DudgX-cli getinfo #To get general info such as DudgX version and current block numnber
-DudgX-cli mnsync status #To check if your MN is synced.
+Dudgx-cli masternode status #To check your MN status
+Dudgx-cli getinfo #To get general info such as DudgX version and current block numnber
+Dudgx-cli mnsync status #To check if your MN is synced.
 ```
-Also, if you want to check/start/stop **DudgX**, run one of the following commands as **root**:
+Also, if you want to check/start/stop **Dudgx**, run one of the following commands as **root**:
 
 ```
-systemctl status DudgX #To check if DudgX service is running
-systemctl start DudgX #To start DudgX service
-systemctl stop DudgX #To stop DudgX service
-systemctl is-enabled DudgX #To check if DudgX service is enabled on boot
+systemctl status Dudgx #To check if DudgX service is running
+systemctl start Dudgx #To start DudgX service
+systemctl stop Dudgx #To stop DudgX service
+systemctl is-enabled Dudgx #To check if DudgX service is enabled on boot
 ```
 ***
 
