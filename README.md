@@ -30,7 +30,7 @@ Alias Address Privkey TxHash TxIndex
 * TxIndex:  **Second value from Step 6**
 9. Save and close the file.
 10. Go to  **Tools -> "Open Wallet Configuration File"**
-11. Make sure you have the following in your wallet:
+11. Insert the following into that file:
 ```
 rpcuser=AnyUsername
 rpcpassword=Any Password
