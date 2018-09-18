@@ -76,8 +76,3 @@ systemctl is-enabled Dudgx #To check if DudgX service is enabled on boot
 ```
 ***
 
-## Donations
-Any donation is highly appreciated
-
-**BTC**: 1KWC1RXFrFjnCEF684o3kpDwtTLiMBbsqf
-**ETH**: 0x94E27a1DF0fbc3E694c8B995EBF7F75277cAe7fd
