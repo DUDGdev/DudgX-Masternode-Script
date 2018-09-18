@@ -75,4 +75,7 @@ systemctl stop Dudgx #To stop DudgX service
 systemctl is-enabled Dudgx #To check if DudgX service is enabled on boot
 ```
 ***
+Any donation is highly appreciated
 
+BTC   394CVEQbp1TVvKXh9GNjd8nzPS2BNzsast
+DUDGX DGbSaLiChdSqsz1RQ8zwS51RM2BSdgfPCJ
