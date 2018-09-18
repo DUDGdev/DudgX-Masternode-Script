@@ -2,13 +2,13 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='Dudgx.conf'
-CONFIGFOLDER='/root/.DudgX'
+CONFIGFOLDER='/root/.Dudgx'
 COIN_DAEMON='Dudgxd'
 COIN_CLI='Dudgx-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/DUDGdev/DUDGX/releases/download/V1.0/DudgX-Masternode-Script-Files.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='DudgX'
+COIN_NAME='Dudgx'
 COIN_PORT=38349
 RPC_PORT=38350
 
