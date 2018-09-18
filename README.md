@@ -31,6 +31,7 @@ Alias Address Privkey TxHash TxIndex
 9. Save and close the file.
 10. Go to  **Tools -> "Open Wallet Configuration File"**
 11. Make sure you have the following in your wallet:
+```
 rpcuser=**Any Username**
 rpcpassword=**Any Password**
 txindex=1
@@ -42,6 +43,7 @@ maxconnections=256
 masternode=1
 masternodeprivkey=**Masternode Private Key**
 masternodeaddr=VPS IP:38349
+```
 12. Save and close the file.
 13. **Restart your wallet**
 14. Go to **Masternode Tab**. If you tab is not shown, please enable it from: **Settings - Options - Wallet - Show Masternodes Tab**
