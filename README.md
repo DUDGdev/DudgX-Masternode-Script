@@ -29,17 +29,33 @@ Alias Address Privkey TxHash TxIndex
 * TxHash: **First value from Step 6**
 * TxIndex:  **Second value from Step 6**
 9. Save and close the file.
-10. Go to **Masternode Tab**. If you tab is not shown, please enable it from: **Settings - Options - Wallet - Show Masternodes Tab**
-11. Click **Update status** to see your node. If it is not shown, close the wallet and start it again. Make sure the wallet is unlocked.
-12. Select your MN and click **Start Alias** to start it.
-13. Alternatively, open **Debug Console** and type:
+10. Go to  **Tools -> "Open Wallet Configuration File"**
+11. Make sure you have the following in your wallet:
+rpcuser=**Any Username**
+rpcpassword=**Any Password**
+txindex=1
+listen=1
+server=1
+daemon=1
+logtimestamps=1
+maxconnections=256
+masternode=1
+masternodeprivkey=**Masternode Private Key**
+masternodeaddr=VPS IP:38349
+12. Save and close the file.
+13. **Restart your wallet**
+14. Go to **Masternode Tab**. If you tab is not shown, please enable it from: **Settings - Options - Wallet - Show Masternodes Tab**
+15. Click **Update status** to see your node. If it is not shown, close the wallet and start it again. Make sure the wallet is unlocked.
+16. Select your MN and click **Start Alias** to start it.
+17. Alternatively, open **Debug Console** and type:
 ```
 startmasternode alias 0 MN1
 ```
-14. Login to your VPS and check your masternode status by running the following command to confirm your MN is running:
+18. Login to your VPS and check your masternode status by running the following command to confirm your MN is running:
 ```
 Dudgx-cli masternode status
 ```
+
 ***
 
 ## Usage:
