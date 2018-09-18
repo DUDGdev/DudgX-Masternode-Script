@@ -3,8 +3,8 @@
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='DudgX.conf'
 CONFIGFOLDER='/root/.DudgX'
-COIN_DAEMON='DudgXd'
-COIN_CLI='DudgX-cli'
+COIN_DAEMON='Dudgxd'
+COIN_CLI='Dudgx-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/DUDGdev/DUDGX/releases/download/V1.0/DudgX-Masternode-Script-Files.tgz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
