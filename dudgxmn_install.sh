@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='DudgX.conf'
+CONFIG_FILE='Dudgx.conf'
 CONFIGFOLDER='/root/.DudgX'
 COIN_DAEMON='Dudgxd'
 COIN_CLI='Dudgx-cli'
