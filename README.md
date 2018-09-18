@@ -32,8 +32,8 @@ Alias Address Privkey TxHash TxIndex
 10. Go to  **Tools -> "Open Wallet Configuration File"**
 11. Make sure you have the following in your wallet:
 ```
-rpcuser=**Any Username**
-rpcpassword=**Any Password**
+rpcuser=AnyUsername
+rpcpassword=Any Password
 txindex=1
 listen=1
 server=1
@@ -41,7 +41,7 @@ daemon=1
 logtimestamps=1
 maxconnections=256
 masternode=1
-masternodeprivkey=**Masternode Private Key**
+masternodeprivkey=Masternode Private Key
 masternodeaddr=VPS IP:38349
 ```
 12. Save and close the file.
